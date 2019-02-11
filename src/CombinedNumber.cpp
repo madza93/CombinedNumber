@@ -4,6 +4,12 @@ std::string CombinedNumber::constructGreatestNumber(std::list<unsigned int> l)
 {
     if (l.empty())
         return "";
-    return std::to_string(l.front());
+    std::string a= "";
+    for(auto i: l){
+        a+=std::to_string(i);
+
+    }
+    return a;
 }
+
 
