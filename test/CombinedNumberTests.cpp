@@ -23,3 +23,11 @@ TEST_F(CombinedNumberTests, when1IsGivenString1IsReturned)
     auto result = cn.constructGreatestNumber({1});
     ASSERT_EQ(result, "1");
 }
+
+TEST_F(CombinedNumberTests, when2IsGivenString2IsReturned)
+{
+    //std::list<unsigned int> l = {};
+
+    auto result = cn.constructGreatestNumber({2});
+    ASSERT_EQ(result, "2");
+}
