@@ -31,3 +31,9 @@ TEST_F(CombinedNumberTests, whenDoubleOneIsGivenString11IsReturned)
     auto result = cn.constructGreatestNumber({1,1});
     ASSERT_EQ(result, "11");
 }
+
+TEST_F(CombinedNumberTests, whenAllNumbersAreEqualString1212IsReturned)
+{
+    auto result = cn.constructGreatestNumber({1,2,1,2});
+    ASSERT_EQ(result, "1212");
+}

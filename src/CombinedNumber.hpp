@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 #include <list>
+#include <iterator>
+#include <algorithm>
 
 class CombinedNumber
 {
